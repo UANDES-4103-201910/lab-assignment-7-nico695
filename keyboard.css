@@ -1,3 +1,95 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+
+
+.keyboard {
+    text-align: center;
+    
+    font-family: sans-serif;
+
+
+}
+
+
+.keyboard__row > * {
+	display: inline-block;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	line-height: 3.3em;
+    background: #331;
+    color: #fff;
+    border-radius: 0.3em;
+    margin: 0.3em;
+    cursor: pointer;
+}
+
+.key-spec1 {       
+    width: 6em;
+    font-size: 0.95vw;
+    
+}
+
+.key-spec2 {
+    width: 4.6em;
+    background: #fe522d;
+    font-size: 0.95vw;
+}
+
+
+.key-spec3 {
+    width: 6.5em;
+    background: #fe522d;
+    font-size: 0.95vw;
+}
+
+
+.key--space {
+    width: 30.5em;
+    font-size: 0.95vw;
+}
+
+
+.key-letter {
+	height: 3.3em;
+	width: 3.3em;
+    font-size: 0.9vw;
+}
+
+
+.key-letter:hover{
+	background: #333
+}
+.key-spec1:hover{
+	background: #333
+}
+
+.key-spec2:hover{
+	background: #fe520d
+}
+.key-spec3:hover{
+	background: #fe520d
+}
+.key--space:hover{
+	background: #333;
+}
+.key-letter:active{
+	background: #111;
+}
+
+.key-spec1:active{
+	background: #111;
+}
+.key-spec2:active{
+	background: #a31c00;
+}
+
+.key-spec3:active{
+	background: #a31c00;
+}
+
+.key--space:active{
+	background: #111;
+}
